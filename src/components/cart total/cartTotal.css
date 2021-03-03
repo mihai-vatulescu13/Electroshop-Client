@@ -1,0 +1,26 @@
+
+.item{
+    font-weight: 350;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.clear-cart-btn{
+    margin: 5px;
+    height:35px;
+    width: 130px;
+}
+
+.total-status{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.total-description{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color:#19A974;
+}
+

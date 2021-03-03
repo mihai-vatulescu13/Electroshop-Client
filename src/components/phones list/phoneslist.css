@@ -1,0 +1,43 @@
+
+.products-container{
+   margin: 50px;
+
+}
+
+/* button font color: */
+.link-text-adm{
+ color: rgb(235, 235, 235);
+ text-decoration: none;
+ padding: 15px;
+ font-size: 15px; 
+
+}
+
+/* button properties: */
+.adm-button{
+ background-color: rgb(65, 65, 65);
+ border: none;
+ margin: 10px;
+ height: 34px;
+ border-radius: 30px;
+}
+
+.description{
+  font-weight: 350;
+  font-size: 30px; 
+  /* background-color: #19A974; */
+  background-color: rgb(230, 230, 230);
+  /* color: #19A974; */
+  color: black;
+
+  /* set margin-bottom: */
+  margin-bottom: 0px;
+}
+
+@media all and (max-width:1300px){
+  .products-container{
+      margin: 0;
+  }
+}
+
+

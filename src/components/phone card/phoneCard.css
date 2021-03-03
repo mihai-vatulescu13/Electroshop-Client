@@ -1,0 +1,66 @@
+/* in this file we will define product page style */
+
+.card-container{
+    width: 15%;
+    box-shadow: 5px 5px 20px rgb(56, 56, 56);
+}
+
+.card-text{
+    font-size: 25px;
+    font-weight: 350;
+    margin: 8px;
+}
+
+.picture-product{
+    width: 400px;
+    /* height: 315px; */
+}
+
+.cart-button{
+    width: 170px;
+    height: 55px;
+
+}
+
+.cart-text{
+    font-size: 18px;
+    margin: 3px;
+}
+
+.desc-container{
+   color: rgb(88, 88, 88);
+}
+
+/* cart logo prop. */
+.cart-logo{
+    width: 25px;
+    padding: 5px;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .picture-product{
+   height: 300px;
+   width: auto; 
+} */
+
+@media all and (max-width:800px){
+    .card-container{
+        width: 70%;
+    }
+
+}
+        
+
+@media all and (max-width:1300px){
+    .card-container{
+        width: 70%;
+    }
+
+}
+
+

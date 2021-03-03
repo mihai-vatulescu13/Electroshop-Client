@@ -1,0 +1,293 @@
+/* import font from google fonts: */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Maven+Pro&display=swap");
+
+.container {
+  background-image: url("./plant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-description {
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+.description-container {
+  background-color: rgb(75, 75, 75);
+  height: auto;
+  padding: 1em;
+  margin: 1.5em;
+}
+
+.main-page-description {
+  font-weight: 250;
+  font-size: 3rem;
+  padding: 0.5em;
+  color: #19a974;
+}
+
+.description-container {
+  margin-top: 0px;
+}
+
+/* this class represents image properties */
+.image {
+  width: 55vw;
+  height: auto;
+  margin: 1.5em;
+}
+
+.desc-image {
+  box-shadow: 8px 8px 10px rgb(97, 97, 97);
+}
+
+.sub-description {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.available-services-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  width: 80%;
+
+  height: auto;
+}
+
+/* services options container: */
+.services-desc-container {
+  width: 100%;
+  background-color: #19a974;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+/* service logo image property: */
+.service-logo {
+  width: 65px;
+}
+
+/* services options container properties: */
+.services-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 100%;
+  max-width: 380px;
+}
+
+/* this class refers to element service description */
+.service-elem-desc {
+  margin: 15px;
+}
+
+.desc-title {
+  color: rgb(255, 255, 255);
+  font-size: 2.8rem;
+  font-weight: 300;
+  text-shadow: 5px 5px 10px gray;
+  margin: 1em;
+}
+
+.desc-title2 {
+  color: rgb(65, 65, 65);
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.service-description {
+  width: 70%;
+}
+
+/* service description text container */
+.service-text {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.service-text-details {
+  color: rgb(65, 65, 65);
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+.color-set {
+  background-color: rgb(209, 209, 209);
+}
+
+/* dont forget about media query here :) */
+.offer-image {
+  width: 35vw;
+  height: auto;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.main-description {
+  font-size: 20px;
+  color: #19a974;
+}
+
+footer {
+  background-color: rgb(53, 53, 53);
+}
+
+.footer-text > p {
+  font-size: 22px;
+  margin: 5px;
+  color: #ffffff;
+}
+
+/* set description services elements to be resopnsive to phone/tablet screen */
+@media (max-width: 1200px) {
+  .services-desc-container {
+    width: 100%;
+  }
+
+  .main-page-description {
+    font-weight: 250;
+    font-size: 28px;
+    padding: 5px;
+    margin: 15px;
+  }
+
+  .sub-description {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .desc-title {
+    color: rgb(65, 65, 65);
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .desc-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .desc-title2 {
+    color: rgb(65, 65, 65);
+    font-size: 45px;
+    font-weight: 300;
+  }
+
+  .service-text-details {
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 30px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .service-elem-desc {
+    margin: 12px;
+  }
+
+  .service-logo {
+    width: 45px;
+  }
+}
+
+/* set resoponsive size elements for 800px max width: */
+@media (max-width: 800px) {
+  .top-description {
+    margin: 1em;
+  }
+
+  .main-page-description {
+    font-weight: 250;
+    font-size: 28px;
+    padding: 5px;
+    margin: 15px;
+  }
+
+  .sub-description {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .desc-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .desc-title2 {
+    color: rgb(65, 65, 65);
+    font-size: 45px;
+    font-weight: 300;
+  }
+
+  .service-text {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .available-services-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-text-details {
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 30px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .service-elem-desc {
+    margin: 12px;
+  }
+
+  .service-logo {
+    width: 45px;
+  }
+
+  .offer-image {
+    width: 95vw;
+    height: auto;
+    box-shadow: 5px 5px 10px gray;
+  }
+
+  .main-description {
+    font-size: 15px;
+    color: #19a974;
+    padding: 8px;
+  }
+
+  .footer-text > p {
+    font-size: 18px;
+    margin: 5px;
+    color: #ffffff;
+  }
+}
