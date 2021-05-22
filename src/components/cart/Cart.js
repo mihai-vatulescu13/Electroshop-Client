@@ -13,7 +13,6 @@ const Cart = () =>{
        //define an anonimous function 
        (value) =>{
          //value.cart -> array with ordered products
-
         //determine if the cart is empty or not:
         if(value.cart.length === 0){
           return <Empty/>;

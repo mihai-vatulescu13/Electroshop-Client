@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {ProductConsumer} from '../../context'
-import { render } from '@testing-library/react'
 import cart1 from '../../cartLogo1.png'
 import cart2 from '../../cartLogo2.png'
 import './phoneCard.css'
@@ -9,11 +8,10 @@ import PropTypes from 'prop-types'
 
 //product card
 //this component represents page with products from the store
-class PhoneCard extends React.Component{
+const PhoneCard = (props) =>{
 
-   render(){
     // destructuring(grabbing the props that comes from PhonesList component)
-    const {id, url, brand, model, price, inCart} = this.props.product; 
+    const {id, url, brand, model, price, inCart} = props.product; 
     
     const buttonStyle={
       backgroundColor:'rgb(25,169,116)',
@@ -95,7 +93,7 @@ class PhoneCard extends React.Component{
     </ProductConsumer>
    )
   }
-}
+
 
 PhoneCard.propTypes={
  //validating given props by checking object properties types: 

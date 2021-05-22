@@ -148,18 +148,42 @@
   color: #19a974;
 }
 
+.explore-offers {
+  background-color: #028090;
+  height: 8vh;
+}
+
+.explore-offers-text {
+  font-weight: 200;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.explore-text-and-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-icon {
+  width: 50px;
+  height: 50px;
+  margin: 1em;
+}
+
 footer {
-  background-color: rgb(53, 53, 53);
+  background-color: #02c39a;
+
+  height: 12vh;
 }
 
 .footer-text > p {
-  font-size: 22px;
+  font-size: 1.4rem;
   margin: 5px;
-  color: #ffffff;
+  color: whitesmoke;
 }
 
 /* set description services elements to be resopnsive to phone/tablet screen */
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .services-desc-container {
     width: 100%;
   }
@@ -248,6 +272,10 @@ footer {
     font-size: 25px;
     font-weight: 300;
     text-align: center;
+  }
+
+  .service-description {
+    width: 100%;
   }
 
   .available-services-container {

@@ -6,7 +6,7 @@ const CartTotal = ({value}) =>{
  const {cartSubTotal, cartTotal ,clearCart,cartTva } = value;
 
  return(
-    <div className='container'>
+    <div className='cart-total-container'>
       <p className='total-description'>
        The final price that you pay:
       </p>  

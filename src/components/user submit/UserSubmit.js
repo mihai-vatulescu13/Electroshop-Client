@@ -113,24 +113,15 @@ class UserSubmit extends React.Component{
     }
   
     //important
-    //submit button will "send" data to the server
-    onSubmit = () =>{
-      //after destructuring this.state and this.props.value.cart data will be send to the server
-      console.log('Data that will be send to the server:')
-      console.log('user data:',this.state)
-      console.log('cart total:',this.props.value.cartTotal)
-      console.log('cart data:',this.props.value.cart)
-      // this.testServer()
-      
+    //submit button will send data to the server
+    onSubmit = () =>{     
      if(this.validateUserData(this.state)){
       this.addUser();
       this.addCartProducts();
      } 
-     
     }
 
     renderValidateData = () =>{
-      //for test:
       const reasonTest = this.validateData()
       return (reasonTest) ? 'Its everything ok' : 'The fields must not be empty'
     }
@@ -146,7 +137,6 @@ class UserSubmit extends React.Component{
         phone_num
       } = this.state;
 
-
       let checkEmpty = true;
       if(f_name === '' || l_name === '' 
        || Email_adress === ''
@@ -158,16 +148,11 @@ class UserSubmit extends React.Component{
     }
 
     render(){
-     
       return(
         <ProductConsumer>
           {
             (value)=>{
-             //test
-             console.log('cart data from user submit component:',value.cart)
              const {cartSubTotal,cartTva,cartTotal} = value
-             console.log('total values in user submit component:',cartSubTotal,cartTotal,cartTva)
-            
              return(
               <div className='owner-data-section'>
               <h1 className='title-desc'>

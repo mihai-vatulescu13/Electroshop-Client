@@ -1,40 +1,37 @@
+.fields {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+}
 
-.fields{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr;
-   }
-   
-   /* input-field property: */
-   .input-field{
-       width: 350px;
-       height: 35px;
-   }
-   
-   .center-field{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-   
-   .field-label{
-      font-size: 18px; ;
-   }
-   
-   .title-desc{
-       color: #19A974
-   }
-   
-   .submit-button{
-       margin: 25px;
-       height:35px;
-   }
-   
-   @media all and (max-width:1200px){
-       .input-field{
-           width: 280px;
-           height: 35px;
-       }
-   
-   }
-   
+/* input-field property: */
+.input-field {
+  width: 350px;
+  height: 35px;
+}
+
+.center-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field-label {
+  font-size: 18px;
+}
+
+.title-desc {
+  color: #19a974;
+}
+
+.submit-button {
+  margin: 25px;
+  height: 35px;
+}
+
+@media all and (max-width: 1200px) {
+  .input-field {
+    width: 280px;
+    height: 35px;
+  }
+}

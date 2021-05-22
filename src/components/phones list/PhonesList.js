@@ -23,7 +23,6 @@ class PhonesList extends React.Component{
            <div className='products'>
             <ProductConsumer>
                 {(value)=>{
-                               
                   return value.products.map(product =>{
                     return <PhoneCard key={product.id} product={product}/>
                   })

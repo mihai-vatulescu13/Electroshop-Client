@@ -23,8 +23,7 @@ class ProductProvider extends React.Component{
     postal_code: '',
     phone_num:'',
     searchField: '',
-    //administrator password:
-    password: 'admin13'
+
     
   }
 
@@ -54,7 +53,7 @@ class ProductProvider extends React.Component{
   //method that allow us to add a product to the cart
   addToCart = (id) =>{
     //create an array with products
-    let temporaryProducts = [...this.state.products];
+    const temporaryProducts = [...this.state.products];
     const index = temporaryProducts.indexOf(this.getItem(id))
     const product = temporaryProducts[index]
     product.inCart = true
@@ -120,6 +119,11 @@ class ProductProvider extends React.Component{
   }
 
 
+  clearCart = () =>{
+   this.setState({cart: []})
+  }
+
+
   //create a functon that calculate all products price from cart:
   calculateTotal = () =>{
    let totalSum = 0
@@ -139,17 +143,6 @@ class ProductProvider extends React.Component{
   }
 
 
-  //add an search method:
-  onSearch = (event) =>{
-   
-  }
-
-  connect = (pass) =>{
-   return (this.state.password === pass) ? true : false;
-  }
-
-  //must be added later on sort methods
-
     render(){
         return(
           //react context->provide all information into our app 
@@ -163,9 +156,8 @@ class ProductProvider extends React.Component{
             incrementCart: this.incrementCart,
             decrementCart: this.decrementCart,
             removeFromCart: this.removeFromCart,
-            // clearCart: this.clearCart,
-            onSearch: this.onSearch,
-            connect: this.connect
+            clearCart: this.clearCart,
+            onSearch: this.onSearch
             
           }}>
            

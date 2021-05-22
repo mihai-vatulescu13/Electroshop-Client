@@ -4,6 +4,7 @@ import guarantLogo from '../assets/guaranteeLogo.png'
 import returnlogo from '../assets/returnLogo.png'
 import buyimg from '../assets/buyImage.png'
 import imgdesc from '../assets/mobileImg.jpeg'
+import searchIcon from '../assets/searchIcon.png'
 import './home.css'
 
 
@@ -98,9 +99,18 @@ const Home = () =>{
               </div> 
             </div>
 
-            <p className='description'>
-                Explore our offers!  
-            </p>
+            <div className='explore-offers center-items'>
+             <div className='explore-text-and-icon center-items'>
+              <img 
+               src={searchIcon} 
+               alt='search icon' 
+               className='search-icon'
+              /> 
+              <h3 className='explore-offers-text'>
+               Explore our offers!  
+              </h3>
+             </div>
+            </div>
 
             <div className='center-items'>
               <div className='image'>
@@ -114,7 +124,7 @@ const Home = () =>{
             </div>
             
       {/*Add footer section here(maybe later)  */}
-      <footer>
+      <footer className='center-items'>
        <div className='footer-text'>
         <p>
          Author: Mihai Vatulescu 
