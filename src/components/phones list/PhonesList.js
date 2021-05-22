@@ -15,10 +15,14 @@ class PhonesList extends React.Component{
     return(
         <div className='phones-list-container'>
           
-          <h2 className='description tc pa4 ma0'>
-            Choose your favourite product from list below!
+          <h2 className='description tc pa3 ma0'>
+            Choose your favourite product the from list below! 
           </h2>
          
+          <h2 className='prod-desc tc'>
+            Click on product picture to see more details.
+          </h2>
+
           <div className='row products-container'>
            <div className='products'>
             <ProductConsumer>
