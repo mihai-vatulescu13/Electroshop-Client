@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Electroshop-Client/static/css/main.fbbd1439.chunk.css",
+    "main.js": "/Electroshop-Client/static/js/main.72985d15.chunk.js",
+    "main.js.map": "/Electroshop-Client/static/js/main.72985d15.chunk.js.map",
+    "runtime-main.js": "/Electroshop-Client/static/js/runtime-main.8f6be942.js",
+    "runtime-main.js.map": "/Electroshop-Client/static/js/runtime-main.8f6be942.js.map",
+    "static/css/2.036b41f9.chunk.css": "/Electroshop-Client/static/css/2.036b41f9.chunk.css",
+    "static/js/2.6d60d219.chunk.js": "/Electroshop-Client/static/js/2.6d60d219.chunk.js",
+    "static/js/2.6d60d219.chunk.js.map": "/Electroshop-Client/static/js/2.6d60d219.chunk.js.map",
+    "index.html": "/Electroshop-Client/index.html",
+    "precache-manifest.a7bd9c6d463e1a0a575d2e5767337dc5.js": "/Electroshop-Client/precache-manifest.a7bd9c6d463e1a0a575d2e5767337dc5.js",
+    "service-worker.js": "/Electroshop-Client/service-worker.js",
+    "static/css/2.036b41f9.chunk.css.map": "/Electroshop-Client/static/css/2.036b41f9.chunk.css.map",
+    "static/css/main.fbbd1439.chunk.css.map": "/Electroshop-Client/static/css/main.fbbd1439.chunk.css.map",
+    "static/js/2.6d60d219.chunk.js.LICENSE.txt": "/Electroshop-Client/static/js/2.6d60d219.chunk.js.LICENSE.txt",
+    "static/media/buyImage.png": "/Electroshop-Client/static/media/buyImage.5888d1b3.png",
+    "static/media/cartLogo1.png": "/Electroshop-Client/static/media/cartLogo1.5e0a7509.png",
+    "static/media/cartLogo2.png": "/Electroshop-Client/static/media/cartLogo2.631297c2.png",
+    "static/media/gadgetLogo.png": "/Electroshop-Client/static/media/gadgetLogo.7681497e.png",
+    "static/media/guaranteeLogo.png": "/Electroshop-Client/static/media/guaranteeLogo.230c2e02.png",
+    "static/media/mobileImg.jpeg": "/Electroshop-Client/static/media/mobileImg.53b9e693.jpeg",
+    "static/media/home.css": "/Electroshop-Client/static/media/plant.c7ddb634.jpg",
+    "static/media/returnLogo.png": "/Electroshop-Client/static/media/returnLogo.e39a8f18.png",
+    "static/media/searchIcon.png": "/Electroshop-Client/static/media/searchIcon.ee68c9c8.png",
+    "static/media/shippingLogo.png": "/Electroshop-Client/static/media/shippingLogo.949e25c2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f6be942.js",
+    "static/css/2.036b41f9.chunk.css",
+    "static/js/2.6d60d219.chunk.js",
+    "static/css/main.fbbd1439.chunk.css",
+    "static/js/main.72985d15.chunk.js"
+  ]
+}
