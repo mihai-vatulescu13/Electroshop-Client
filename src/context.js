@@ -90,9 +90,6 @@ class ProductProvider extends React.Component{
     })
   }
 
-  decrementCart = (id) =>{
-   console.log('decrement function') 
-  }
 
   removeFromCart = (id) =>{
    //spread products properties 
