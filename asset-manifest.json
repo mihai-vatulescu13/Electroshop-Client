@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Electroshop-Client/static/css/main.fbbd1439.chunk.css",
-    "main.js": "/Electroshop-Client/static/js/main.3b5293dc.chunk.js",
-    "main.js.map": "/Electroshop-Client/static/js/main.3b5293dc.chunk.js.map",
+    "main.css": "/Electroshop-Client/static/css/main.4588fefa.chunk.css",
+    "main.js": "/Electroshop-Client/static/js/main.a0a422e0.chunk.js",
+    "main.js.map": "/Electroshop-Client/static/js/main.a0a422e0.chunk.js.map",
     "runtime-main.js": "/Electroshop-Client/static/js/runtime-main.8f6be942.js",
     "runtime-main.js.map": "/Electroshop-Client/static/js/runtime-main.8f6be942.js.map",
     "static/css/2.036b41f9.chunk.css": "/Electroshop-Client/static/css/2.036b41f9.chunk.css",
     "static/js/2.8b3952b7.chunk.js": "/Electroshop-Client/static/js/2.8b3952b7.chunk.js",
     "static/js/2.8b3952b7.chunk.js.map": "/Electroshop-Client/static/js/2.8b3952b7.chunk.js.map",
     "index.html": "/Electroshop-Client/index.html",
-    "precache-manifest.0f11819b8889b25c7c8c5c284a5699c9.js": "/Electroshop-Client/precache-manifest.0f11819b8889b25c7c8c5c284a5699c9.js",
+    "precache-manifest.d35ad887a4e4033983d3842aa8663c07.js": "/Electroshop-Client/precache-manifest.d35ad887a4e4033983d3842aa8663c07.js",
     "service-worker.js": "/Electroshop-Client/service-worker.js",
     "static/css/2.036b41f9.chunk.css.map": "/Electroshop-Client/static/css/2.036b41f9.chunk.css.map",
-    "static/css/main.fbbd1439.chunk.css.map": "/Electroshop-Client/static/css/main.fbbd1439.chunk.css.map",
+    "static/css/main.4588fefa.chunk.css.map": "/Electroshop-Client/static/css/main.4588fefa.chunk.css.map",
     "static/js/2.8b3952b7.chunk.js.LICENSE.txt": "/Electroshop-Client/static/js/2.8b3952b7.chunk.js.LICENSE.txt",
     "static/media/buyImage.png": "/Electroshop-Client/static/media/buyImage.5888d1b3.png",
     "static/media/cartLogo1.png": "/Electroshop-Client/static/media/cartLogo1.5e0a7509.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.8f6be942.js",
     "static/css/2.036b41f9.chunk.css",
     "static/js/2.8b3952b7.chunk.js",
-    "static/css/main.fbbd1439.chunk.css",
-    "static/js/main.3b5293dc.chunk.js"
+    "static/css/main.4588fefa.chunk.css",
+    "static/js/main.a0a422e0.chunk.js"
   ]
 }

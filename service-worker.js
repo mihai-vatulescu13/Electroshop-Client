@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Electroshop-Client/precache-manifest.0f11819b8889b25c7c8c5c284a5699c9.js"
+  "/Electroshop-Client/precache-manifest.d35ad887a4e4033983d3842aa8663c07.js"
 );
 
 self.addEventListener('message', (event) => {

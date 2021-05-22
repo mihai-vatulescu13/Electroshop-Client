@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5634465f60a3a160f0b9fc29c3e79956",
+    "revision": "d12c9c4162b5643d1ac044edb7209d9e",
     "url": "/Electroshop-Client/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Electroshop-Client/static/css/2.036b41f9.chunk.css"
   },
   {
-    "revision": "ac03e0eee81b707d52fe",
-    "url": "/Electroshop-Client/static/css/main.fbbd1439.chunk.css"
+    "revision": "589b0502d84c8b55a765",
+    "url": "/Electroshop-Client/static/css/main.4588fefa.chunk.css"
   },
   {
     "revision": "cc496c24e7ce2bbd26c7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Electroshop-Client/static/js/2.8b3952b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac03e0eee81b707d52fe",
-    "url": "/Electroshop-Client/static/js/main.3b5293dc.chunk.js"
+    "revision": "589b0502d84c8b55a765",
+    "url": "/Electroshop-Client/static/js/main.a0a422e0.chunk.js"
   },
   {
     "revision": "d64213f747ded77655e7",
